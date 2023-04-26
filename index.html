@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 25%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Taylor Swift<3</h1>
+  <p>These column headers aren't gonna make sense, but that's okay.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>1989</h2>
+      <p>Live, Laugh, Love Taylor Swift. (ok what else do i put here) i love lover. (yeah, that). oh also i am going to have red stuck in my head the entire day (loving him was like driving a new Maseradi down a dead-end street...) why did i listen to that damned song. (none of which is part of 1989 but I said live laugh love taylor swift who was born in 1989 so..) Oh also can we talk about how she did the little dance to bejewled at her tour like? she's so pretty. anyways. OH OH ALSO from her tour she made a refernce with the stage to Cell Block Tango in Vigilante Sh*t which is so funny to me but also that made me spiral back into listening to that song on repeat. I did not need that. Oh yeah it needs to be stated that T.Swift is a cat person (which is the only correct stance) "Cats that knock the pen off your table" - Taylor Swift (probably, well maybe not exactly but close enough) ok well images don't wanna load. (that's probably me messing up but i'm not gonna say that.) can't spell awesome without taylor swift. spelling is fun kids. Oh right she has 1989 trademarked for phone cases if it's written on the font on the album cover</p>
+      <p><img src="taylor1989.jfif" width="200" height="200"</p>
+    <p>ok actually about the album, so Bad Blood is definitely her most streamed.</p>
+      <p>(the version <i>without</i> the rap IS better and I won't take criticism)</p>
+    <p>She did this thing in one of her tours where she merged clean and wildest dreams together that was cool</p>
+      <p>sometimes I feel like her albums are kinda strange like the songs in them don't really match up. Like in all you had to do was stay she says something abt girls like her being the type to be gone when you say goodbye and then in I wish you would she's like, "come back please" except not worded like that.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Lover</h2>
+    <p>No because sometimes I feel like my entire life was a taylor swift reference. anyways. "With every guitar string scar on my hand, I take this magnetic force of a man to be my lover" I LOVE THAT LYRIC SO MUCH. ok so like we're gonna ignore how her and joe broke up for now bc what. (i say as i continue to not ignore) 6 years?? that's crazy. but this was like one of if not her best album ever oh my christ. like i dont know a thing about that man at all but the songs she wrote about him were so cute like this entire album and the love songs in reputation we love that. (also I love reputation and look what you made me do was such a good comeback, she did not lie when she said "I rose up from the dead". also, getaway car??? I dont even know the backstory of most of her songs gonna be honest but like. that one has a nice bridge too) Cornelia street's a sad song now though :(</p>
+  </div>
+  
+  <div class="column">
+    <h2>Red</h2>
+    <p>She has the best bridges ever. Just saying. Like Enchanted, Bad Blood, Lover(!!!) but uh, i guess i should make the column header relevant... "it's supposed to be fun turning 21" like WHAT. okay but jake is such a [word I cant say/type at school] for that like who just decides their girlfriend's 21st birthday isn't important. Well ig he didn't say that but. especially in america too?? like that's a major birthday but ok. (petition for taylor to get her scarf back) I mean he said his reason was that he could feel the age difference and, fair but cmon, that means you're just not gonna show? What was stopping him from having a conversation with her about it or even breaking up AFTER her birthday passed?? listen to a taylor swift song everytime you read 'like' in this website challenge!! (I would say take a shot, but this is, school. And also i'm the only person who's gonna read this)</p>
+  </div>
+</div>
+        
+  <div class="column">
+    <h2>Speak Now</h2>
+    <p>ok actually yeah im a speak now advocate she slandered(not really) that album with no representation in her tour but.</p>
+    <p>ok well she had enchanted on the list.</p>
+    <p>which by the way is a great song (you should listen to it)(even though most people know it already)</p>
+    <p>ok about speak now though the memes people made with that song... some of y'all concern me. But I always forget that the song is supposed to be about her daydreaming and not actually happening.</p>
+        </div>
+        
+
+</body>
+</html>
